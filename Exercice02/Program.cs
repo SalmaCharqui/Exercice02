@@ -32,7 +32,7 @@ namespace Exercice02
            
             Console.WriteLine("affichage apres insertion:");
             
-            for(int k = 0; k <= N; k++)
+            for(int k= 0; k <= N; k++)
             {
                 Console.WriteLine(tab[k]);
 
@@ -41,7 +41,7 @@ namespace Exercice02
         static void Main(string[] args)
         {
             Console.WriteLine("le tableau avant insertion:");
-            int[] tab = new int[]{ 10, 25, 30, 40, 55, 60} ;
+            int[] tab = new int[] { 10, 25, 30, 40, 55, 60} ;
             for (int i = 0; i < tab.Length; i++)
             {
                 Console.WriteLine(tab[i]);
